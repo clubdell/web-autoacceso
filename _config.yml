@@ -1,0 +1,11 @@
+# Site configuration
+title: Laboratorio de Autoacceso
+email: autoacceso@cs.buap.mx
+description: Laboratorio, Autoacceso, proyectos
+baseurl:
+url: "/"
+
+sass:
+    style: compressed
+
+exclude: [node_modules, package.json]
