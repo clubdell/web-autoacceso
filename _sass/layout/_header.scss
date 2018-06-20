@@ -1,0 +1,24 @@
+// Header
+
+header.header {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.15) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        opacity: 0.98;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        .navbar-header {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            height: 80px;
+            justify-content: space-between;
+            line-height: 80px;
+        }
+
+        .nav-item {
+            padding: 0 15px;
+        }
+    }
+}

@@ -8,11 +8,21 @@
   <meta name="author" content="Lab. Autoacceso">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 <body>
 
+  {% include header.html %}
+
   {{ content }}
+
+  {% include footer.html %}
+
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/popper.min.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 
 </body>
 </html>
