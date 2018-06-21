@@ -1,6 +1,6 @@
 // Sections
 
-.bg-home {
+section.bg-home {
     overflow: hidden !important;
 
     .bg-cover {
@@ -19,7 +19,7 @@
         position: relative;
 
         &::before {
-            background-color: rgba(0, 0, 0, 0.8) !important;
+            background-color: rgba(0, 0, 0, 0.3) !important;
             content: '';
             display: block;
             width: 100%;
@@ -31,8 +31,23 @@
     }
 
     .home-info {
-        position: absolute !important;
         top: 0 !important;
         left: 0 !important;
+    }
+}
+
+section.members {
+    .member {
+        text-align: center;
+        margin-bottom: 20px;
+
+        .member-image {
+            overflow: hidden;
+            height: 260px;
+
+            img {
+               max-width: 100%;
+            }
+        }
     }
 }

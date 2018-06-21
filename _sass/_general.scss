@@ -15,3 +15,15 @@ a, a:hover {
     text-decoration: none;
 }
 
+.mapouter {
+    text-align: right;
+    width: 500px;
+    height: 500px;
+}
+
+.gmap_canvas {
+    width: 500px;
+    height: 500px;
+    overflow:hidden;
+    background: none !important;
+}
