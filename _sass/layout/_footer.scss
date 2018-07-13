@@ -16,6 +16,24 @@ footer.footer {
             a {
                 color: #666 !important;
             }
+
+            .mail {
+                &:hover {
+                    color: $mail-link-color !important;
+                }
+            }
+
+            .facebook {
+                &:hover {
+                    color: $fb-link-color !important;
+                }
+            }
+
+            .twitter {
+                &:hover {
+                    color: $twitter-link-color !important;
+                }
+            }
         }
     }
 }
