@@ -57,7 +57,9 @@ section.banner {
     background-position: center center;
     background-repeat: no-repeat !important;
     background-size: cover;
+    background-attachment: fixed;
     color: #fff;
+    position: relative;
 
     .bg-banner-overlay {
         position: relative;
@@ -73,4 +75,9 @@ section.banner {
             left: 0;
         }
     }
+}
+
+section.contact {
+    background-color: #191919;
+    color: #fff;
 }
