@@ -7,8 +7,6 @@ header.header {
         opacity: 0.98;
         padding-top: 0;
         padding-bottom: 0;
-        height: 120px;
-        transition-duration: 0.6s;
 
         .navbar-header {
             align-items: center;
@@ -22,12 +20,5 @@ header.header {
         .nav-item {
             padding: 0 15px;
         }
-    }
-
-    .navbar-scroll {
-        background-color: #00253e !important;
-        padding: 0;
-        height: 80px;
-        transition-duration: 0.6s;
     }
 }
