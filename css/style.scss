@@ -2,9 +2,7 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import 'variables';
-
-@import 'general';
-@import 'layout/header';
-@import 'layout/sections';
-@import 'layout/footer';
+@import "variables";
+@import "general";
+@import "layout/sections";
+@import "layout/footer";
