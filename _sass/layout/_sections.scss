@@ -52,3 +52,34 @@ section.bg-parallax {
         }
     }
 }
+
+.pb-section {
+    padding: 9em 0;
+    position: relative;
+    display: block;
+}
+
+
+section.pb-section-about {
+    .icon {
+        width: 85px;
+        height: 85px;
+        position: relative;
+
+        i {
+            position: absolute;
+            top: 20%;
+            left: 15%;
+            font-size: 54px;
+        }
+    }
+}
+
+section.pb-section-team {
+    .member {
+        .member-img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
