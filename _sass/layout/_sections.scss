@@ -53,12 +53,28 @@ section.bg-parallax {
     }
 }
 
-.pb-section {
+section.pb-section {
     padding: 9em 0;
     position: relative;
     display: block;
 }
 
+section.pb-section-projects {
+    .pb-slider {
+        position: relative;
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+
+        .slide-block {
+            .img-fluid {
+                display: inline-block;
+                width: 500px;
+                height: 350px;
+            }
+        }
+    }
+}
 
 section.pb-section-about {
     .icon {
