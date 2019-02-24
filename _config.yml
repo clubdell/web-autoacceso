@@ -1,11 +1,13 @@
 # Site configuration
 title: Laboratorio de Autoacceso
 email: autoacceso@cs.buap.mx
-description: Laboratorio, Autoacceso, proyectos
+description: laboratorio, autoacceso, proyectos # TODO: Change
 baseurl:
 url: "/"
 
 sass:
-    style: compressed
+  style: compressed
 
-exclude: [Dockerfile, README.md]
+exclude:
+  - Dockerfile
+  - README.md

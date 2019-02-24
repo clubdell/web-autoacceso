@@ -1,0 +1,80 @@
+// General
+
+body {
+    background-color: #353b43;
+    font-family: 'Poppins', sans-serif;
+    color: #737f8a;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 400;
+    color: #afbac4;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #57cbcc;
+}
+
+::selection {
+    color: #fff;
+    background: #57cbcc;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+a {
+  color: #fff;
+  -webkit-transition: all .3s ease-in 0s;
+  transition: all .3s ease-in 0s;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+a:focus, a:hover {
+  color: #57cbcc;
+}
+
+.kill-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.padding-0 {
+  padding: 0 !important;
+}
+
+.btn {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 0;
+  -webkit-transition: all .3s ease-in 0s;
+  transition: all .3s ease-in 0s;
+}
+
+.btn:focus {
+  color: #ddd;
+}
+
+.btn-transparent {
+  border: 1px solid #4e595f;
+}
+
+.btn-transparent:hover, .btn-transparent:focus {
+  background-color: #57cbcc;
+  border: 1px solid transparent;
+  color: #fff;
+}

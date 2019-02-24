@@ -1,0 +1,62 @@
+// Sections
+
+.about {
+    padding: 100px 0;
+
+    .block {
+        background: #242930;
+        padding: 30px;
+        margin-bottom: 20px;
+        transition: .5s all;
+
+        .icon-box {
+            position: relative;
+            width: 160px;
+            height: 85.30px;
+            margin: 30px auto 65px;
+            padding: 20px 0;
+            transform: translateZ(0px);
+
+            i {
+                background: #57cbcc;
+                font-size: 50px;
+                color: #fff;
+                border-radius: 50%;
+                padding: 25px;
+            }
+        }
+
+        &:hover {
+            border-bottom: 2px solid #57cbcc;
+        }
+    }
+}
+
+.about-2 {
+    background: #242930;
+
+    .img-work {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .content-block {
+        padding: 40px;
+
+        .media {
+            padding-top: 25px;
+
+            .media-icon {
+                float: left !important;
+                padding-right: 15px;
+            }
+
+            i {
+                font-size: 25px;
+                color: #57cbcc;
+            }
+        }
+    }
+}

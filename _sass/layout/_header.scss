@@ -1,0 +1,39 @@
+// Header
+
+.header {
+    background-color: #1d2024;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 10px;
+
+    .title {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        span {
+            font-family: 'Quicksand', sans-serif;
+        }
+    }
+
+    .nav {
+        .nav-link {
+            font-family: 'Quicksand', sans-serif;
+        }
+    }
+
+    .main-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .navbar {
+        .navbar-toggler {
+            border: 1px solid #fff;
+            border-radius: 0;
+        }
+    }
+}

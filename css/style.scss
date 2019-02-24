@@ -3,3 +3,8 @@
 ---
 
 @charset "utf-8";
+
+@import 'general';
+@import 'layout/header' ;
+@import 'layout/sections';
+@import 'layout/footer';
