@@ -13,18 +13,6 @@
         margin: 0;
     }
 
-    .navbar-brand {
-        span {
-            font-family: 'Quicksand', sans-serif;
-        }
-    }
-
-    .nav {
-        .nav-link {
-            font-family: 'Quicksand', sans-serif;
-        }
-    }
-
     .main-logo {
         width: 100px;
         height: 100px;
@@ -32,8 +20,28 @@
 
     .navbar {
         .navbar-toggler {
-            border: 1px solid #fff;
-            border-radius: 0;
+            margin-left: 5px;
+            border: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .navbar-brand {
+            span {
+                font-family: 'Quicksand', sans-serif;
+            }
+        }
+
+        .nav {
+            .nav-link {
+                font-family: 'Quicksand', sans-serif;
+
+                &:hover {
+                    color: #088baf;
+                }
+            }
         }
     }
 }

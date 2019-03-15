@@ -1,8 +1,10 @@
 # Site configuration
 title: Laboratorio de Autoacceso
 email: autoacceso@cs.buap.mx
-description: laboratorio, autoacceso, proyectos # TODO: Change
-baseurl:
+description: >
+  Laboratorio enfocado en la investigación y desarrollo de proyectos
+  de la Benemerita Universidad Autonoma de Puebla.
+baseurl: ""
 url: "/"
 
 sass:
